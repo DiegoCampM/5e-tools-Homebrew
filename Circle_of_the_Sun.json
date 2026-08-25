@@ -1,0 +1,192 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "CircleSun",
+				"abbreviation": "DCS",
+				"full": "Antylife - Circle of the Sun",
+				"authors": [
+					"Antylife"
+				],
+				"dateReleased": "2026-08-24"
+			}
+		],
+		"dateAdded": 1787597831
+	},
+	"subclass": [
+		{
+			"name": "Circle of the Sun",
+			"source": "CircleSun",
+			"className": "Druid",
+			"classSource": "PHB",
+			"shortName": "Sun",
+			"subclassFeatures": [
+				"Circle of the Sun|Druid|PHB|Sun|CircleSun|2",
+				"Absorb Radiance|Druid|PHB|Sun|CircleSun|2",
+				"Circle of the Sun Spells|Druid|PHB|Sun|CircleSun|2",
+				"Unleash Radiance|Druid|PHB|Sun|CircleSun|2",
+				"Conflagration|Druid|PHB|Sun|CircleSun|6",
+				"Unleash Radiance Improvement|Druid|PHB|Sun|CircleSun|6",
+				"Radiant Rebirth|Druid|PHB|Sun|CircleSun|10",
+				"Avatar of the Sun|Druid|PHB|Sun|CircleSun|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Circle of the Sun",
+			"source": "CircleSun",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "CircleSun",
+			"level": 2,
+			"entries": [
+				"Druids revere aspects of nature, and none is more central to the cycle of life than the sun, origin of light and life. Druids of this circle are not clerics of the god of the sun, but represent its aspect in the cycle of life, the light and heat it brings, the fiery radiance with which it reigns over the world.",
+				"Druids of the Circle often stand in opposition to that which crawls through the dark, that which corrupts in the absence of light, and while still inclined to the neutrality many druids uphold, they tend to swing further to the extremes of passion and action, willing to burn away the rot. Though they might aim for a controlled burn, a controlled burn may often be more destructive than a simple pruning.",
+				"At 2nd level, you learn the {@spell light} and {@spell control flames|XGE} cantrips."
+			]
+		},
+		{
+			"name": "Absorb Radiance",
+			"source": "CircleSun",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "CircleSun",
+			"level": 2,
+			"entries": [
+				"While you are in sunlight, you can use a bonus action to gain temporary hit points equal to your Wisdom modifier. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Circle of the Sun Spells",
+			"source": "CircleSun",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "CircleSun",
+			"level": 2,
+			"entries": [
+				"You always have the following spells prepared, and they don't count against the number of spells you can prepare each day.",
+				{
+					"type": "table",
+					"caption": "Circle of the Sun Spells",
+					"colLabels": [
+						"Druid Level",
+						"Spells"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell light}, {@spell control flames|XGE}"
+						],
+						[
+							"3rd",
+							"{@spell flame blade}, {@spell flaming sphere}"
+						],
+						[
+							"5th",
+							"{@spell daylight}, {@spell fireball}"
+						],
+						[
+							"7th",
+							"{@spell fire shield}, {@spell wall of fire}"
+						],
+						[
+							"9th",
+							"{@spell flame strike}, {@spell dawn|XGE}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Unleash Radiance",
+			"source": "CircleSun",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "CircleSun",
+			"level": 2,
+			"entries": [
+				"When you choose this circle at 2nd level, you gain an alternate use for Wild Shape. You can absorb sunlight and, as a bonus action, unleash the stored radiance outward. When you use this feature, each creature of your choice within 5 feet of you must make a Constitution saving throw. On a failed save, a creature is blinded until the start of your next turn.",
+				"The radius increases to 10 feet at 6th level, 15 feet at 11th level, and 20 feet at 17th level.",
+				"For the next 1 minute, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You shed bright light in a 20-foot radius and dim light for an additional 20 feet.",
+						"Once on each of your turns, when you deal fire or radiant damage, you can deal an additional 1d4 fire or radiant damage to that target. The additional damage increases to 1d6 at 6th level, 1d8 at 11th level, and 1d10 at 17th level."
+					]
+				},
+				"This effect ends early if you are incapacitated, die, or use an action to end it. When the effect ends early as an action, you can release the stored energy as a beam of light. The beam is 60 feet long and 5 feet wide. Each creature in the line must make a Dexterity saving throw, taking 2d8 radiant damage on a failed save, or half as much damage on a successful one. The damage increases by 1d8 at 5th level (3d8), 11th level (4d8), and 17th level (5d8).",
+				"If you use this feature again before you have been exposed to direct sunlight for at least 8 hours, its duration is halved, and you can't release the beam when the effect ends early."
+			]
+		},
+		{
+			"name": "Conflagration",
+			"source": "CircleSun",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "CircleSun",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you make a melee spell attack with {@spell flame blade}, you can make a second melee spell attack as part of the same action.",
+						"While you are in your Unleash Radiance form, you can cast {@spell flame blade} without requiring concentration. This {@spell flame blade} spell ends when your Unleash Radiance ends."
+					]
+				}
+			]
+		},
+		{
+			"name": "Unleash Radiance Improvement",
+			"source": "CircleSun",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "CircleSun",
+			"level": 6,
+			"entries": [
+				"Also at 6th level, while you are in your Unleash Radiance form, the light you shed is considered sunlight, and you have resistance to fire and radiant damage."
+			]
+		},
+		{
+			"name": "Radiant Rebirth",
+			"source": "CircleSun",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "CircleSun",
+			"level": 10,
+			"entries": [
+				"At 10th level, when you reduce a creature to 0 hit points on your turn using fire or radiant damage, you can revitalize a creature you can see within 60 feet of you, including yourself. That creature gains temporary hit points equal to 2d10 + your Wisdom modifier.",
+				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Avatar of the Sun",
+			"source": "CircleSun",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "CircleSun",
+			"level": 14,
+			"entries": [
+				"Starting at 14th level, when you use Unleash Radiance, you can become sunlight itself. While in this form, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You are immune to fire and radiant damage.",
+						"You gain a flying speed equal to your walking speed as wings of fire sprout from your back.",
+						"Whenever you roll fire or radiant damage on your turn, you can choose a number of the damage dice up to half your proficiency bonus, rounded down. The chosen dice are treated as having rolled their maximum value."
+					]
+				}
+			]
+		}
+	]
+}
