@@ -2,21 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "KenseiWarrior",
-				"abbreviation": "KW",
-				"full": "El Gremio de Elysium - Kensei Warrior",
-				"authors": [
-					"El Gremio de Elysium"
-				],
-				"convertedBy": [
-					"Antylife"
-				],
-				"dateReleased": "2026-08-27"
-			},
-			{
-				"json": "SchoolAbjuration",
-				"abbreviation": "SoA",
-				"full": "El Gremio de Elysium - School of Abjuration",
+				"json": "ElysiumCompendium",
+				"abbreviation": "EC",
+				"full": "El Gremio de Elysium's Compendium - Subclases",
 				"authors": [
 					"El Gremio de Elysium"
 				],
@@ -31,41 +19,41 @@
 	"subclass": [
 		{
 			"name": "Way of the Kensei",
-			"source": "KenseiWarrior",
+			"source": "ElysiumCompendium",
 			"className": "Monk",
 			"classSource": "PHB",
 			"shortName": "Kensei",
 			"subclassFeatures": [
-				"Path of the Kensei|Monk|PHB|Kensei|KenseiWarrior|3",
-				"One with the Blade|Monk|PHB|Kensei|KenseiWarrior|6",
-				"Sharpen the Blade|Monk|PHB|Kensei|KenseiWarrior|11",
-				"Unerring Strike|Monk|PHB|Kensei|KenseiWarrior|17"
+				"Path of the Kensei|Monk|PHB|Kensei|ElysiumCompendium|3",
+				"One with the Blade|Monk|PHB|Kensei|ElysiumCompendium|6",
+				"Sharpen the Blade|Monk|PHB|Kensei|ElysiumCompendium|11",
+				"Unerring Strike|Monk|PHB|Kensei|ElysiumCompendium|17"
 			]
 		},
 		{
 			"name": "School of Abjuration",
-			"source": "SchoolAbjuration",
+			"source": "ElysiumCompendium",
 			"className": "Wizard",
 			"classSource": "PHB",
 			"shortName": "Abjuration",
 			"subclassFeatures": [
-				"Abjuration Savant|Wizard|PHB|Abjuration|SchoolAbjuration|3",
-				"Arcane Ward|Wizard|PHB|Abjuration|SchoolAbjuration|3",
-				"School of Abjuration|Wizard|PHB|Abjuration|SchoolAbjuration|3",
-				"Projected Ward|Wizard|PHB|Abjuration|SchoolAbjuration|6",
-				"Spell Breaker|Wizard|PHB|Abjuration|SchoolAbjuration|10",
-				"Spell Resistance|Wizard|PHB|Abjuration|SchoolAbjuration|14"
+				"Abjuration Savant|Wizard|PHB|Abjuration|ElysiumCompendium|3",
+				"Arcane Ward|Wizard|PHB|Abjuration|ElysiumCompendium|3",
+				"School of Abjuration|Wizard|PHB|Abjuration|ElysiumCompendium|3",
+				"Projected Ward|Wizard|PHB|Abjuration|ElysiumCompendium|6",
+				"Spell Breaker|Wizard|PHB|Abjuration|ElysiumCompendium|10",
+				"Spell Resistance|Wizard|PHB|Abjuration|ElysiumCompendium|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
 			"name": "Path of the Kensei",
-			"source": "KenseiWarrior",
+			"source": "ElysiumCompendium",
 			"className": "Monk",
 			"classSource": "PHB",
 			"subclassShortName": "Kensei",
-			"subclassSource": "KenseiWarrior",
+			"subclassSource": "ElysiumCompendium",
 			"level": 3,
 			"entries": [
 				"{@i Masterfully Mix Weapons with Martial Arts}",
@@ -112,11 +100,11 @@
 		},
 		{
 			"name": "One with the Blade",
-			"source": "KenseiWarrior",
+			"source": "ElysiumCompendium",
 			"className": "Monk",
 			"classSource": "PHB",
 			"subclassShortName": "Kensei",
-			"subclassSource": "KenseiWarrior",
+			"subclassSource": "ElysiumCompendium",
 			"level": 6,
 			"entries": [
 				"You extend your energy into your kensei weapons, granting you the following benefits.",
@@ -138,11 +126,11 @@
 		},
 		{
 			"name": "Sharpen the Blade",
-			"source": "KenseiWarrior",
+			"source": "ElysiumCompendium",
 			"className": "Monk",
 			"classSource": "PHB",
 			"subclassShortName": "Kensei",
-			"subclassSource": "KenseiWarrior",
+			"subclassSource": "ElysiumCompendium",
 			"level": 11,
 			"entries": [
 				"You gain the ability to augment your weapons further. As a bonus action, you can expend up to 3 Focus Points to grant one Kensei Weapon you touch a bonus to attack and damage rolls when you attack with it. The bonus equals the number of Focus Points you spent. If the weapon was already a magic weapon with a bonus to attack and damage rolls, you cannot increase the total bonus beyond +3. This bonus lasts 1 minute or until you use this feature again."
@@ -150,11 +138,11 @@
 		},
 		{
 			"name": "Unerring Strike",
-			"source": "KenseiWarrior",
+			"source": "ElysiumCompendium",
 			"className": "Monk",
 			"classSource": "PHB",
 			"subclassShortName": "Kensei",
-			"subclassSource": "KenseiWarrior",
+			"subclassSource": "ElysiumCompendium",
 			"level": 17,
 			"entries": [
 				"Your mastery of weapons grants you extraordinary accuracy. You gain the following benefits:",
@@ -176,11 +164,11 @@
 		},
 		{
 			"name": "Abjuration Savant",
-			"source": "SchoolAbjuration",
+			"source": "ElysiumCompendium",
 			"className": "Wizard",
 			"classSource": "PHB",
 			"subclassShortName": "Abjuration",
-			"subclassSource": "SchoolAbjuration",
+			"subclassSource": "ElysiumCompendium",
 			"level": 3,
 			"entries": [
 				"Choose two Wizard spells from the Abjuration school, each of which must be no higher than level 2, and add them to your spellbook for free.",
@@ -189,11 +177,11 @@
 		},
 		{
 			"name": "Arcane Ward",
-			"source": "SchoolAbjuration",
+			"source": "ElysiumCompendium",
 			"className": "Wizard",
 			"classSource": "PHB",
 			"subclassShortName": "Abjuration",
-			"subclassSource": "SchoolAbjuration",
+			"subclassSource": "ElysiumCompendium",
 			"level": 3,
 			"entries": [
 				"You can weave magic around yourself for protection. When you cast an Abjuration spell with a spell slot, you can simultaneously use a strand of the spell's magic to create a magical ward on yourself that lasts until you finish a Long Rest. The ward has a Hit Point maximum equal to twice your Wizard level plus your Intelligence modifier. Whenever you take damage, the ward takes the damage instead, and if you have any Resistances or Vulnerabilities, apply them before reducing the ward's Hit Points. If the damage reduces the ward to 0 Hit Points, you take any remaining damage. While the ward has 0 Hit Points, it can't absorb damage, but its magic remains.",
@@ -203,11 +191,11 @@
 		},
 		{
 			"name": "School of Abjuration",
-			"source": "SchoolAbjuration",
+			"source": "ElysiumCompendium",
 			"className": "Wizard",
 			"classSource": "PHB",
 			"subclassShortName": "Abjuration",
-			"subclassSource": "SchoolAbjuration",
+			"subclassSource": "ElysiumCompendium",
 			"level": 3,
 			"entries": [
 				"{@i Shield Companions and Banish Foes}",
@@ -216,11 +204,11 @@
 		},
 		{
 			"name": "Projected Ward",
-			"source": "SchoolAbjuration",
+			"source": "ElysiumCompendium",
 			"className": "Wizard",
 			"classSource": "PHB",
 			"subclassShortName": "Abjuration",
-			"subclassSource": "SchoolAbjuration",
+			"subclassSource": "ElysiumCompendium",
 			"level": 6,
 			"entries": [
 				"When a creature other than yourself that you can see within 30 feet of you takes damage, you can use your Reaction to expend a spell slot and weave protective magic around the target. Roll a number of d10s equal to the level of the spell slot expended and reduce the damage the target takes by the total rolled on those dice + your Intelligence modifier."
@@ -228,11 +216,11 @@
 		},
 		{
 			"name": "Spell Breaker",
-			"source": "SchoolAbjuration",
+			"source": "ElysiumCompendium",
 			"className": "Wizard",
 			"classSource": "PHB",
 			"subclassShortName": "Abjuration",
-			"subclassSource": "SchoolAbjuration",
+			"subclassSource": "ElysiumCompendium",
 			"level": 10,
 			"entries": [
 				"You always have the {@spell counterspell} and {@spell dispel magic} spells prepared.",
@@ -242,11 +230,11 @@
 		},
 		{
 			"name": "Spell Resistance",
-			"source": "SchoolAbjuration",
+			"source": "ElysiumCompendium",
 			"className": "Wizard",
 			"classSource": "PHB",
 			"subclassShortName": "Abjuration",
-			"subclassSource": "SchoolAbjuration",
+			"subclassSource": "ElysiumCompendium",
 			"level": 14,
 			"entries": [
 				"You have Advantage on saving throws against spells and other magical effects, and you have Resistance to the damage of spells."
