@@ -1,0 +1,142 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AntylifeCompendium",
+				"abbreviation": "ANC",
+				"full": "Antylife's Compendium",
+				"authors": [
+					"Antylife"
+				],
+				"dateReleased": "2026-08-28"
+			}
+		],
+		"dateAdded": 1787597831
+	},
+	"spell": [
+		{
+			"name": "Spellfire Bell",
+			"source": "AntylifeCompendium",
+			"page": 1,
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a silvered choir bell worth at least 150 gp, which the spell consumes",
+					"cost": 15000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You ring an arcane, silver bell, imbuing it with healing magics that cure the afflicted. Choose one creature within range. You can end one of the following conditions: {@condition charmed}, {@condition frightened}, {@condition poisoned}, {@condition petrified}, or {@condition stunned}. This cure does not work if a target is {@condition deafened}."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"You can target one additional creature for each spell slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Arc Blade",
+			"source": "AntylifeCompendium",
+			"page": 1,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a melee weapon with which you have proficiency and that is worth 1+ cp",
+					"cost": 1
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"As lightning surges through the weapon used in the spell's casting, you make one attack. This attack can be a melee attack or ranged spell attack using the weapon with a range of 15 feet, as a wave of energy extends from the weapon. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If it is a ranged attack, it deals lightning damage. Otherwise, it can deal lightning damage or the weapon's normal damage type (your choice).",
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"Whether you deal lightning damage or the weapon's normal damage type, the attack deals extra lightning damage when you reach levels 5 ({@damage 1d6}), 11 ({@damage 2d6}), and 17 ({@damage 3d6})."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}

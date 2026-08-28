@@ -1,0 +1,88 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AntylifeCompendium",
+				"abbreviation": "ANC",
+				"full": "Antylife's Compendium",
+				"authors": [
+					"Antylife"
+				],
+				"dateReleased": "2026-08-28"
+			}
+		],
+		"dateAdded": 1787597831
+	},
+	"feat": [
+		{
+			"name": "Shield Master",
+			"source": "AntylifeCompendium",
+			"page": 1,
+			"prerequisite": [
+				{
+					"other": "Proficiency with shields"
+				}
+			],
+			"entries": [
+				"You use shields not just for protection but also for offense. You gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Increase your Strength score by 1, to a maximum of 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shield Bash",
+					"entries": [
+						"If you attack a creature within 5 feet of you as a part of the Attack Action and hit with a melee weapon, you can immediately bash the target with your shield if it's equipped, forcing the target to make a Strength saving throw against a DC equal to 8 + your Strength modifier + your Proficiency Bonus. On a failed save, you knock the target prone or push it 5 feet away. You can use this benefit only once on each of your turns."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Interpose Shield",
+					"entries": [
+						"If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, or half damage if you failed, interposing your shield between yourself and the source of the effect."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gunner",
+			"source": "AntylifeCompendium",
+			"page": 1,
+			"entries": [
+				"Thanks to extensive practice with firearms, you gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Increase your Strength or Dexterity score by 1, to a maximum of 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ignore Loading",
+					"entries": [
+						"You ignore the Loading and Reload property of any firearm. If you're holding one of them, you can load a piece of ammunition into it even if you lack a free hand. You can even ignore the special reload of many of this kind of weapons if it requires an action to reload it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Firing in Melee",
+					"entries": [
+						"Being within 5 feet of an enemy doesn't impose disadvantage on your attack rolls with firearms."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dual Wielding",
+					"entries": [
+						"When you make the extra attack of the Light property, you can add your ability modifier to the damage of the extra attack if that attack is with a firearm that has the Light property and you aren't already adding that modifier to the damage."
+					]
+				}
+			]
+		}
+	]
+}

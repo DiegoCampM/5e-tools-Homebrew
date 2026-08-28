@@ -1,0 +1,75 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AntylifeCompendium",
+				"abbreviation": "ANC",
+				"full": "Antylife's Compendium",
+				"authors": [
+					"Antylife"
+				],
+				"dateReleased": "2026-08-28"
+			}
+		],
+		"dateAdded": 1787597831
+	},
+	"item": [
+		{
+			"name": "Pluma del Fénix",
+			"source": "AntylifeCompendium",
+			"page": 1,
+			"type": "W",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"Esta pluma carmesí siempre emite un calor comparado a una antorcha. Si es puesta en la oscuridad, ésta brilla con luz brillante en un área de 30 pies con 30 pies adicionales de luz tenue.",
+				{
+					"type": "entries",
+					"name": "Calidez Protectora",
+					"entries": [
+						"Tienes resistencia al daño de fuego."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ascuas Sanadoras",
+					"entries": [
+						"Cuando restauras puntos de golpe a una criatura con cualquier característica de juego, puedes lanzar un dado adicional de curación. Esta propiedad solo se puede utilizar una vez por turno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fuego Restaurador",
+					"entries": [
+						"Como Acción Mágica puedes lanzar el hechizo {@spell lesser restoration} o {@spell greater restoration} desde la pluma sin requerir componentes materiales o espacio de conjuro. Una vez utilizado un hechizo, éste no puede volver a ser utilizado hasta el siguiente amanecer."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cuerno de Guerra del Valhalla",
+			"source": "AntylifeCompendium",
+			"page": 1,
+			"type": "W",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"Este cuerno de guerra está grabado con la figura de valientes guerreros. El hecho de estar cerca de este te hace sentir seguridad y valentía.",
+				{
+					"type": "entries",
+					"name": "Valor",
+					"entries": [
+						"Mientras el cuerno esté en tu persona, tienes ventaja en las tiradas de salvación contra ser {@condition asustado|PHB} o {@condition encantado|PHB}. Cuando tú o una criatura que puedas ver dentro de 30 pies de ti que no esté ensordecida tiene la condición de asustado o encantado, puedes usar una Acción Mágica para soplar el cuerno y remover la condición en la criatura. Una vez utilizada esta propiedad, no puede volver a ser utilizada hasta el siguiente amanecer."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Guerrero del Valhalla",
+					"entries": [
+						"Como Acción Mágica puedes soplar el cuerno. En respuesta, un espíritu poderoso de Ysgard aparece en un espacio desocupado que puedas ver dentro de 60 pies de ti. Este espíritu usa el stat block de Berserker Commander y regresa a Ysgard luego de 1 hora, cuando cae a 0 puntos de golpe, o cuando tu concentración termina. Este espíritu es amistoso tanto para ti como para tus aliados y sigue tus comandos. Una vez utilizada esta característica, no puede volver a ser utilizada hasta el siguiente amanecer."
+					]
+				}
+			]
+		}
+	]
+}
