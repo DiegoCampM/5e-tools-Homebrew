@@ -18,7 +18,7 @@
 			"name": "Pluma del Fénix",
 			"source": "AntylifeCompendium",
 			"page": 1,
-			"type": "W",
+			"type": "Wondrous Item",
 			"rarity": "rare",
 			"reqAttune": true,
 			"entries": [
@@ -50,7 +50,7 @@
 			"name": "Cuerno de Guerra del Valhalla",
 			"source": "AntylifeCompendium",
 			"page": 1,
-			"type": "W",
+			"type": "Wondrous Item",
 			"rarity": "rare",
 			"reqAttune": true,
 			"entries": [
