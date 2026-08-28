@@ -2,10 +2,13 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "AntylifeCompendium",
-				"abbreviation": "ANC",
-				"full": "Antylife's Compendium",
+				"json": "ElysiumCompendium",
+				"abbreviation": "EC",
+				"full": "El Gremio de Elysium's Compendium - Items",
 				"authors": [
+					"El Gremio de Elysium"
+				],
+				"convertedBy": [
 					"Antylife"
 				],
 				"dateReleased": "2026-08-28"
@@ -16,9 +19,8 @@
 	"item": [
 		{
 			"name": "Pluma del Fénix",
-			"source": "AntylifeCompendium",
+			"source": "ElysiumCompendium",
 			"page": 1,
-			"type": "Wondrous Item",
 			"rarity": "rare",
 			"reqAttune": true,
 			"entries": [
@@ -48,9 +50,8 @@
 		},
 		{
 			"name": "Cuerno de Guerra del Valhalla",
-			"source": "AntylifeCompendium",
+			"source": "ElysiumCompendium",
 			"page": 1,
-			"type": "Wondrous Item",
 			"rarity": "rare",
 			"reqAttune": true,
 			"entries": [

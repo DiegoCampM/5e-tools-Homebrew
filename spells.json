@@ -2,10 +2,13 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "AntylifeCompendium",
-				"abbreviation": "ANC",
-				"full": "Antylife's Compendium",
+				"json": "ElysiumCompendium",
+				"abbreviation": "EC",
+				"full": "El Gremio de Elysium's Compendium - Spells",
 				"authors": [
+					"El Gremio de Elysium"
+				],
+				"convertedBy": [
 					"Antylife"
 				],
 				"dateReleased": "2026-08-28"
@@ -16,7 +19,7 @@
 	"spell": [
 		{
 			"name": "Spellfire Bell",
-			"source": "AntylifeCompendium",
+			"source": "ElysiumCompendium",
 			"page": 1,
 			"level": 3,
 			"school": "A",
@@ -82,7 +85,7 @@
 		},
 		{
 			"name": "Arc Blade",
-			"source": "AntylifeCompendium",
+			"source": "ElysiumCompendium",
 			"page": 1,
 			"level": 0,
 			"school": "V",

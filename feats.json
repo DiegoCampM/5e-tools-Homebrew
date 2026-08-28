@@ -2,10 +2,13 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "AntylifeCompendium",
-				"abbreviation": "ANC",
-				"full": "Antylife's Compendium",
+				"json": "ElysiumCompendium",
+				"abbreviation": "EC",
+				"full": "El Gremio de Elysium's Compendium - Feats",
 				"authors": [
+					"El Gremio de Elysium"
+				],
+				"convertedBy": [
 					"Antylife"
 				],
 				"dateReleased": "2026-08-28"
@@ -16,7 +19,7 @@
 	"feat": [
 		{
 			"name": "Shield Master",
-			"source": "AntylifeCompendium",
+			"source": "ElysiumCompendium",
 			"page": 1,
 			"prerequisite": [
 				{
@@ -50,7 +53,7 @@
 		},
 		{
 			"name": "Gunner",
-			"source": "AntylifeCompendium",
+			"source": "ElysiumCompendium",
 			"page": 1,
 			"entries": [
 				"Thanks to extensive practice with firearms, you gain the following benefits:",
