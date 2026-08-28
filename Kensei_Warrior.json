@@ -1,0 +1,148 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "KenseiWarrior",
+				"abbreviation": "KW",
+				"full": "Kensei Warrior",
+				"authors": [
+					"Antylife"
+				],
+				"dateReleased": "2026-08-27"
+			}
+		],
+		"dateAdded": 1787597831
+	},
+	"subclass": [
+		{
+			"name": "Way of the Kensei",
+			"source": "KenseiWarrior",
+			"className": "Monk",
+			"classSource": "PHB",
+			"shortName": "Kensei",
+			"subclassFeatures": [
+				"Path of the Kensei|Monk|PHB|Kensei|KenseiWarrior|3",
+				"One with the Blade|Monk|PHB|Kensei|KenseiWarrior|6",
+				"Sharpen the Blade|Monk|PHB|Kensei|KenseiWarrior|11",
+				"Unerring Strike|Monk|PHB|Kensei|KenseiWarrior|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Path of the Kensei",
+			"source": "KenseiWarrior",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "KenseiWarrior",
+			"level": 3,
+			"entries": [
+				"{@i Masterfully Mix Weapons with Martial Arts}",
+				"Warrior of the Kensei train relentlessly with their weapons, to the point where the weapon becomes an extension of the body. Founded on a mastery of sword fighting, the tradition has expanded to include many different weapons.",
+				"A kensei sees a weapon in much the same way a calligrapher or painter regards a pen or brush.",
+				"Whatever the weapon, the kensei views it as a tool used to express the beauty and precision of the martial arts. That such mastery makes a kensei a peerless warrior is but a side effect of intense devotion, practice, and study.",
+				"Your special martial arts training leads you to master the use of certain weapons. This path also includes instruction in the deft strokes of calligraphy or painting. You gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Kensei Weapons",
+					"entries": [
+						"Choose two types of weapons to be your kensei weapons: one melee weapon and one ranged weapon. Each of these weapons can be any simple or martial weapon. You gain proficiency with these weapons if you don't already have them. Weapons of the chosen types are monk weapons for you. When you reach 6th, 11th, and 17th level in this class, you can choose another type of weapon, either melee or ranged, to be a kensei weapon for you, following the criteria above. When a monk feature would require an Unarmed Strike, you can substitute it with a Kensei Melee Weapon attack, but the weapon damage die is replaced by your martial arts die. If the kensei melee weapon is a magical weapon that adds additional damage dice, you can't add this additional dice to its damage rolls when you use it in this way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Mastery",
+					"entries": [
+						"Your training with weapons allows you to use the Mastery property of your Kensei Weapons. You can only use the Mastery property of the weapon on the attacks of your Attack Action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Agile Parry",
+					"entries": [
+						"If you make a melee weapon attack with your kensei weapon as part of the Attack Action on your turn, you can use it to defend yourself. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't incapacitated."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kensei's Shot",
+					"entries": [
+						"You can use a bonus action on your turn to make your ranged attacks with a kensei weapon more deadly. When you do so, attacks you make against a target you hit with a ranged attack using a Kensei Weapon take an extra Martial Arts die of damage of the weapon's damage type. You retain this benefit until the end of the current turn. At 11th level, the damage increases to two Martial Arts dice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Way of the Brush",
+					"entries": [
+						"You gain proficiency with calligrapher's supplies and painter's supplies."
+					]
+				}
+			]
+		},
+		{
+			"name": "One with the Blade",
+			"source": "KenseiWarrior",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "KenseiWarrior",
+			"level": 6,
+			"entries": [
+				"You extend your energy into your kensei weapons, granting you the following benefits.",
+				{
+					"type": "entries",
+					"name": "Empowered Kensei Weapons",
+					"entries": [
+						"Your attacks with your kensei weapons can deal your choice of force damage or its normal damage type."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deft Strike",
+					"entries": [
+						"When you hit a target with a Kensei Weapon, you can spend up to 3 Focus Points to cause the weapon to deal extra damage to the target equal to your Martial Arts die per Focus Point spent. You can use this feature only once on each of your turns."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sharpen the Blade",
+			"source": "KenseiWarrior",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "KenseiWarrior",
+			"level": 11,
+			"entries": [
+				"You gain the ability to augment your weapons further. As a bonus action, you can expend up to 3 Focus Points to grant one Kensei Weapon you touch a bonus to attack and damage rolls when you attack with it. The bonus equals the number of Focus Points you spent. If the weapon was already a magic weapon with a bonus to attack and damage rolls, you cannot increase the total bonus beyond +3. This bonus lasts 1 minute or until you use this feature again."
+			]
+		},
+		{
+			"name": "Unerring Strike",
+			"source": "KenseiWarrior",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "KenseiWarrior",
+			"level": 17,
+			"entries": [
+				"Your mastery of weapons grants you extraordinary accuracy. You gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Unerring Accuracy",
+					"entries": [
+						"If you miss with an attack roll using a Kensei Weapon on your turn, you can turn the attack roll into a hit. You can only use this feature once on each of your turns."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unerring Weapon",
+					"entries": [
+						"Whenever you use the Extra Attack feature to attack twice, you can instead attack three times if all the attacks are made with a Kensei Weapon."
+					]
+				}
+			]
+		}
+	]
+}
