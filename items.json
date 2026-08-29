@@ -60,7 +60,7 @@
 					"type": "entries",
 					"name": "Valor",
 					"entries": [
-						"Mientras el cuerno esté en tu persona, tienes ventaja en las tiradas de salvación contra ser {@condition asustado|PHB} o {@condition encantado|PHB}. Cuando tú o una criatura que puedas ver dentro de 30 pies de ti que no esté ensordecida tiene la condición de asustado o encantado, puedes usar una Acción Mágica para soplar el cuerno y remover la condición en la criatura. Una vez utilizada esta propiedad, no puede volver a ser utilizada hasta el siguiente amanecer."
+						"Mientras el cuerno esté en tu persona, tienes ventaja en las tiradas de salvación contra ser {@condition frightened} o {@condition charmed}. Cuando tú o una criatura que puedas ver dentro de 30 pies de ti que no esté ensordecida tiene la condición de asustado o encantado, puedes usar una Acción Mágica para soplar el cuerno y remover la condición en la criatura. Una vez utilizada esta propiedad, no puede volver a ser utilizada hasta el siguiente amanecer."
 					]
 				},
 				{
@@ -68,6 +68,312 @@
 					"name": "Guerrero del Valhalla",
 					"entries": [
 						"Como Acción Mágica puedes soplar el cuerno. En respuesta, un espíritu poderoso de Ysgard aparece en un espacio desocupado que puedas ver dentro de 60 pies de ti. Este espíritu usa el stat block de Berserker Commander y regresa a Ysgard luego de 1 hora, cuando cae a 0 puntos de golpe, o cuando tu concentración termina. Este espíritu es amistoso tanto para ti como para tus aliados y sigue tus comandos. Una vez utilizada esta característica, no puede volver a ser utilizada hasta el siguiente amanecer."
+					]
+				}
+			]
+		},
+		{
+			"name": "Circlet of Wisdom",
+			"source": "ElysiumCompendium",
+			"page": 1,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"entries": [
+				"This circlet grants a +2 bonus to the wearer's Wisdom and Charisma scores when attuned."
+			]
+		},
+		{
+			"name": "Celestial Gate",
+			"source": "ElysiumCompendium",
+			"page": 1,
+			"rarity": "legendary",
+			"entries": [
+				"This armillary sphere is about 6 inches in diameter and features a unique glyph of each plane of existence. When left unattended, the rings slowly revolve and spin on their own. Over the course of one minute, you can orient the various rings to all align at a singular glyph, at which point you can speak the name of a location on the associated plane of existence. The sphere then lifts up, spins wildly, and creates a portal to the named location on the chosen plane (as if by the {@spell gate} spell, except it can appear on your current plane of existence). The gate is 10 feet in diameter and hangs in the air, facing you. The sphere then drops to your feet or into your free hand (your choice).",
+				"The gate remains for 1 minute. The area in a 60-foot radius centered on the gate where it appears in the new location is then suffused with holy power, granting it the benefits of the {@spell hallow} spell for the next 12 hours (Everlasting Rest or Peaceful Rest extra effect only; you choose the creature types affected by its first effect).",
+				"Once the item creates a gate in this way, it can't do so again until 24 hours have passed, or 12 hours if the chosen location was on the same plane of existence as you."
+			]
+		},
+		{
+			"name": "Crown of Burden",
+			"source": "ElysiumCompendium",
+			"page": 1,
+			"rarity": "legendary",
+			"reqAttune": "by a Martyr",
+			"entries": [
+				"This golden circlet is shaped in the form of a crown made of spines from the Ziziphus spina-christi tree. While wearing this crown you gain the following benefits.",
+				"You gain a +2 bonus to your saving throws, to your Martyr spell attack rolls, and to your Martyr spell save DC.",
+				{
+					"type": "entries",
+					"name": "Penance",
+					"entries": [
+						"You have resistance to bludgeoning, piercing, and slashing damage and immunity to the {@condition charmed} and {@condition frightened} conditions."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unyielding Miracles",
+					"entries": [
+						"The radiant damage you take when you use a Martyr feature or you cast a Martyr spell is reduced by 10, to a minimum of 5. In addition, you can cast each of your available Burden spells once, without expending a spell use. Once you do, you can't cast that spell again in this way until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shared Sacrifice",
+					"entries": [
+						"Whenever you use Sacrifice Skill, you can choose a creature within 30 feet, that creature gains a bonus to its next d20 test equal to your Proficiency Bonus."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hope's Gloves of Soul Catching",
+			"source": "ElysiumCompendium",
+			"page": 1,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Soul Snatch",
+					"entries": [
+						"Your Strength, Dexterity, and Constitution scores increase by 2, to a maximum of 30."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Soul Fist",
+					"entries": [
+						"Your Unarmed Strikes deal an additional 1d10 force damage on a hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Soul Catching",
+					"entries": [
+						"Once per turn, when you hit with an Unarmed Strike, you gain 10 temporary hit points. Alternatively, instead of gaining temporary hit points in this way, you can choose to gain advantage on one d20 test you make before the end of your next turn."
+					]
+				},
+				"{@i Formerly worn by Autumnal Baskin, a professional meditator turned bare-knuckle champion, who gained enlightenment via two methods. The second was getting a lot of fighting acumen. Advanced cosmic harmony is a nose. Sometimes you've got to break it a few times to get the best of things.}"
+			]
+		},
+		{
+			"name": "Foco de Conocimiento Arcano",
+			"source": "ElysiumCompendium",
+			"page": 1,
+			"rarity": "legendary",
+			"reqAttune": "por una criatura con al menos 17 niveles de Mago",
+			"entries": [
+				"Muchos de estos focos de hechizos han sido creados, pero muy pocas personas han sido capaces de poder utilizarlos. Fueron creados con la intención de potenciar a los magos, además de almacenar todo el conocimiento de cada una de las escuelas arcanas. La creación de cada uno de ellos es un misterio, pero se rumorea que han sido creados con ayuda de intervención divina o a partir de rituales de muchos magos, sin importar su creación, es un enigma.",
+				"Estos focos han sido repartidos por todo el multiverso, muchas veces siendo confundidos como baratijas o tesoros convencionales, solo siendo identificados por grandes Arcanistas, muchos de estos han estado ocultos en el \"Gremio de Elysium\" aguardando el día que un Mago capaz y apto pueda utilizarlo.",
+				"Se ha visto que cuando un Mago se vincula a estos focos, este cambia a un foco el cual hace referencia a la persona, los casos que se han presenciado ha sido una gran Varita con grabados en dracónico en el caso de un Dragón Rojo Antiguo, el segundo caso fue en un Solar de nombre desconocido, el cual portaba uno de estos raros focos el cual tenía semejanza a una enorme Biblia con grabados dorados y runas escritas en celestial.",
+				{
+					"type": "entries",
+					"name": "Foco Arcano",
+					"entries": [
+						"Mientras estás vinculado a este Foco, puedes usarlo como foco arcano y ganas un bonificador de +3 a tus tiradas de ataque de hechizos y a la DC de salvación de tus hechizos de Mago."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Estallido Arcano",
+					"entries": [
+						"Mientras estás vinculado al Foco, como Acción Mágica, puedes lanzar cuatro rayos de energía arcana. Realizas un ataque de hechizo cuerpo a cuerpo contra un objetivo dentro de 120 pies. Al impactar, el objetivo recibe 1d8 + 3 más tu modificador de Inteligencia de daño de fuerza. Puedes redirigir cualquiera de estos ataques a otro objetivo o atacar al mismo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Conocimiento Arcano",
+					"entries": [
+						"Puedes lanzar {@spell identify}, {@spell detect magic} y {@spell tongues} desde el Foco como Acción Mágica sin requerir componentes de hechizo. Cuando lanzas {@spell detect magic} desde el Foco, este no requiere de concentración."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Recuperación de la Urdimbre",
+					"entries": [
+						"Puedes utilizar tu Arcane Recovery dos veces en lugar de una por descanso largo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Especialización Arcana",
+					"entries": [
+						"Este Foco tiene propiedades adicionales dependiendo tu Escuela Arcana:",
+						{
+							"type": "entries",
+							"name": "Abjuración",
+							"entries": [
+								"Siempre tienes preparado los hechizos de Abjuración de la lista del Mago. Si superas la tirada de salvación contra un hechizo de nivel 8 o inferior, este no te afecta. Si ese hechizo solo te afecta a ti y no crea un área de efecto, puedes realizar una Reacción para desviarlo hacia su lanzador; este debe realizar una tirada de salvación contra el hechizo usando su propia CD de salvación."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Adivinación",
+							"entries": [
+								"Siempre tienes preparado los hechizos de Adivinación de la lista del Mago. Cada vez que lanzas una tirada de d20, puedes decidir que el dado sea 10, esta decisión debes hacerla antes de ver el resultado."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Bladesinger",
+							"entries": [
+								"Mientras tu Bladesong está activa, si estás sujeto a un efecto que te permita realizar una tirada de salvación de Destreza para recibir solo la mitad del daño, en su lugar no tomas daño si pasas la salvación; y solo la mitad del daño si la fallas."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Cronoturgia",
+							"entries": [
+								"Una vez por descanso largo, puedes lanzar el hechizo {@spell time stop} sin gastar ranura de hechizo."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Conjuración",
+							"entries": [
+								"Siempre tienes preparado los hechizos de Conjuración de la lista del Mago."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Encantamiento",
+							"entries": [
+								"Siempre tienes preparado los hechizos de Encantamiento de la lista del Mago. Cuando un objetivo haga una tirada de salvación para tus hechizos de Encantamiento, estos tienen desventaja en la tirada."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Evocación",
+							"entries": [
+								"Siempre tienes preparado los hechizos de Evocación de la lista del Mago. Cuando usas Overchannel puedes utilizarlo con cualquier hechizo que haga daño siempre y cuando sea de Evocación. Puedes utilizar esta habilidad dos veces por cada descanso largo."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Graviturgia",
+							"entries": [
+								"Tienes velocidad de vuelo (flote), nado y escalado de 60 pies."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ilusión",
+							"entries": [
+								"Siempre tienes preparado los hechizos de Ilusión de la lista del Mago. Cuando usas tu Illusory Reality, puedes tener un número de ilusiones hechas realidad igual a tu modificador de Inteligencia (mínimo de +1).",
+								"Además, cuando usas Mirror Image o Blur, estos hechizos funcionan incluso si el atacante tiene Blindsight o Truesight."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Nigromante",
+							"entries": [
+								"Siempre tienes preparado los hechizos de Nigromancia de la lista del Mago."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Escribas",
+							"entries": [
+								"Cuando usas tu Master Scrivener puedes crear tres pergaminos en lugar de solo uno.",
+								"Además, puedes usar tu Acción Adicional en lugar de tu Acción Mágica para activar Pergaminos de Hechizos."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Transmutación",
+							"entries": [
+								"Siempre tienes preparado los hechizos de Transmutación de la lista del Mago.",
+								"Cuando usas la habilidad Master Transmuter, las habilidades tienen el siguiente cambio:",
+								{
+									"type": "entries",
+									"name": "Panacea",
+									"entries": [
+										"Puedes eliminar cualquier condición que tenga el objetivo y todo hechizo o efecto de tu elección que tenga la criatura."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Restore Life",
+									"entries": [
+										"En lugar de lanzar el hechizo {@spell raise dead}, puedes utilizar el hechizo {@spell resurrection}, además, la criatura resucitada no sufre los efectos negativos del hechizo."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Restore Youth",
+									"entries": [
+										"Los años rejuvenecidos incrementan a 6d10 y, una vez por criatura, estos años rejuvenecidos no solo son en apariencia, alargando la esperanza de vida de la criatura."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Guerra",
+							"entries": [
+								"Tu Durable Magic ahora ofrece un bonificador de +3 y cuando usas Deflective Shroud ahora puedes seleccionar un número de criaturas igual a tu modificador de Inteligencia y el daño es igual a tu nivel de Mago.",
+								"Además, mientras no lleves armadura, tu CA es igual a 15 + tu modificador de Inteligencia."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Teúrgo",
+							"entries": [
+								"Ganas los beneficios del Dominio de Clérigo elegido de nivel 17. Además, tienes resistencia al daño Radiante y Necrótico."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Demonólogo",
+							"entries": [
+								"Cuando usas Borrowed Tongues and Hides obtienes los siguientes beneficios:",
+								{
+									"type": "list",
+									"items": [
+										"Arch Daemon Boon. Ganas inmunidad al daño Necrótico.",
+										"Arch Seraph Boon. Ganas inmunidad al daño Radiante."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Pelt of the Great Wolf",
+			"source": "ElysiumCompendium",
+			"page": 1,
+			"rarity": "legendary",
+			"reqAttune": "by a Barbarian",
+			"entries": [
+				"While you wear this pelt, you gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Wolf Pelt",
+					"entries": [
+						"You gain a +2 bonus to AC and saving throws."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feral Agility",
+					"entries": [
+						"Your base walking speed increases by 10 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Animal Senses",
+					"entries": [
+						"You gain proficiency and expertise in Wisdom ({@skill Perception}). In addition, you have advantage on Wisdom ({@skill Perception}) checks you make that rely on hearing, sight, or smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pack Tactics",
+					"entries": [
+						"When you use your Reckless Attack, your allies have advantage on attack rolls against creatures within 10 feet of you until the start of your next turn. For the duration, whenever one of your allies scores a critical hit on a creature within 10 feet of you, the attack benefits from one of your Brutal Strike options of your choice."
 					]
 				}
 			]
